@@ -8,6 +8,10 @@ Step 1) Enable application access on your gmail with steps given here:
 https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637554658548216477-2576856839&rd=1  
 \
 Step 2) Enter the details in the file .env, present in the same folder
+
+```
+The email id should be your email id - not that the one that shows up there, from step (1)
+```
 \
 \
 Step 3) On your terminal run: npm i && pm2 start vaccineNotifier.js
